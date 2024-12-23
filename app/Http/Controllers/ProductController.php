@@ -10,10 +10,10 @@ class ProductController extends Controller
     private $products = [
         ['id' => 1, 'name' => 'Laptop',
        'description' => 'High-performance laptop',
-       'price' => 1500, 'img' => 'https://pixabay.com/get/gbb84e21eeac66a6ccc39dfc25d3e89b43342834512c7004b5e4b47f939d9906a7e3b78c4be62915883b72568b43cc17b36321281eccf65e38565f6cd360306ca_1280.jpg'],
+       'price' => 1500, 'img' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXO5e4g--8nXnZDYiqnybyhz9NNu0EngtUg&s'],
         ['id' => 2, 'name' => 'Smartphone',
        'description' => 'Latest smartphone with great features',
-       'price' => 800, 'img' => 'https://pixabay.com/get/g45bcf5e7d75862193166a6df49692c6c7df1f9e56aa7105a9eb582c3cc65575419e3368628695a7fe41638957020b52339bbb0e289d9d003555750b607a598a9_1280.jpg'],
+       'price' => 800, 'img' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZC2wZIiq8h20MtDSHDC4-UFuqhzYz9LmDw&s'],
         ['id' => 3, 'name' => 'Tablet',
        'description' => 'Portable tablet for everyday use',
        'price' => 500, 'img' => 'https://s.alicdn.com/@sc04/kf/Hdb08e8068c324493834a35cdff169277E.jpg_720x720q50.jpg'],
