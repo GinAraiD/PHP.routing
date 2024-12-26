@@ -30,7 +30,7 @@ Route::get('/users/{user}', [UserController::class, 'show']);
 
 Route::get('/products', [ProductController::class, 'index']);
 
-Route::get('/products/{id}', [ProductController::class, 'show']) ->middleware(['verified']);
+Route::get('/products/{id}', [ProductController::class, 'show']) ->middleware(['auth']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
