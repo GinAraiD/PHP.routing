@@ -110,3 +110,14 @@
     border-radius: 10px;
     cursor: pointer;
   }
+
+  .product-grid a {
+    color: white;
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+    font-weight: bold;
+}
+
+.product-grid a:hover {
+    color: #ff6347; /* เปลี่ยนเป็นสีแดงส้มเมื่อโฮเวอร์ */
+    text-decoration: underline;
+}
